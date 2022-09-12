@@ -1,14 +1,14 @@
 .main{
     background-color: rgb(62, 7, 7);
-    width: auto;
-    height: 800px;
-    text-align: justify;
+     width: auto;
+     height: auto;
+     text-align: justify;
 
 }
 .navright{
     display: grid;
     grid-template-columns: repeat(7,1fr);
-     margin-left: 800px;
+    margin-left: 800px;
     margin-top: -30px;
     margin-right: 400px;
     
@@ -43,51 +43,40 @@
 }
 .bottom{
     margin-left: 500px;
-    grid-gap: 5px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 900px;
 }
 .bottom1{
     
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin-right: 500px;
 }
 .bottom2{
-    
-    display: grid; 
-    grid-template-columns: repeat(3,1fr); 
-    margin-top: 50px;
+    @extend .bottom1; 
+    margin-top:50px;
 }
-// .bottom1 img{
-    
-    
-//     padding-left: 5px;
-//     grid-gap: 5px;
-// }
 .divsearch{
     margin-left: 800px;
 }
 .divsearch2{
+    @extend .middleword;
     margin-left: 700px;
-    color: white; 
-    font-family: sans-serif;
 }
 .horizontal{
-    width: 1200px;
-    margin-left: 300px;
+    width: 1800px;
+    margin-left: 350px;
 }
 .horizontal1{
-    width: 1200px;
-    margin-left: 300px;
+    @extend .horizontal;
 }
 .horizontal2{
-    width: 1200px;
-    margin-left: 300px;
+    @extend .horizontal;
 }
 .cocktail_left{
     margin-left: 350px;
 }
-.bottom1{
-    margin-right: 500px;
-}
-.bottom2{
-    margin-right: 500px;
-}
+
+

@@ -1,7 +1,7 @@
 .main {
   background-color: rgb(62, 7, 7);
   width: auto;
-  height: 800px;
+  height: auto;
   text-align: justify;
 }
 
@@ -36,28 +36,30 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.middleword {
+.middleword, .divsearch2 {
   color: white;
   font-family: sans-serif;
 }
 
-.middleword a {
+.middleword a, .divsearch2 a {
   text-decoration: none;
 }
 
 .bottom {
   margin-left: 500px;
-  grid-gap: 5px;
-}
-
-.bottom1 {
+  grid-gap: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 900px;
+}
+
+.bottom1, .bottom2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: 500px;
 }
 
 .bottom2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   margin-top: 50px;
 }
 
@@ -67,33 +69,13 @@
 
 .divsearch2 {
   margin-left: 700px;
-  color: white;
-  font-family: sans-serif;
 }
 
-.horizontal {
-  width: 1200px;
-  margin-left: 300px;
-}
-
-.horizontal1 {
-  width: 1200px;
-  margin-left: 300px;
-}
-
-.horizontal2 {
-  width: 1200px;
-  margin-left: 300px;
+.horizontal, .horizontal2, .horizontal1 {
+  width: 1800px;
+  margin-left: 350px;
 }
 
 .cocktail_left {
   margin-left: 350px;
-}
-
-.bottom1 {
-  margin-right: 500px;
-}
-
-.bottom2 {
-  margin-right: 500px;
 }/*# sourceMappingURL=style.css.map */
